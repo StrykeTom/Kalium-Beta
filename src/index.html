@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="necessary/css/PrincipalStyle.css">
+    <script src="js/buttons.js"></script>
+    <script src="js/sidebar.js"></script>
+
+    <script src="https://kit.fontawesome.com/c17f34969d.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>KALIUM</title>
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="necessary/KALIUM.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">KALIUM</span>
+                    <span class="profession">INICIO</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="shop.html">
+                            <i class='bx bxs-shopping-bags icon'></i>
+                            <span class="text nav-text">Roles</span>
+                        </a>
+                    </li>
+                    <br>
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="section1.html">
+                                <i class='bx bx-laptop icon'></i>
+                                <span class="text nav-text">Finder</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="section2.html">
+                                <i class='bx bxs-server icon'></i>
+                                <span class="text nav-text">Port</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="section3.html">
+                                <i class='bx bxs-terminal icon'></i>
+                                <span class="text nav-text">Lookup</span>
+                            </a>
+                        </li>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <li class="nav-link">
+                            <a href="who.html">
+                                <i class='bx bx-male icon'></i>
+                                <span class="text nav-text">Kalium</span>
+                            </a>
+                        </li>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a onclick="cerrar()">
+                        <i class='bx bx-log-out icon'></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="frame">
+            <button class="cerrar-boton" id="botoncerrar" onclick="cerrar()" type="button">×</button>
+            <button class="minimizar-boton" id="botonminimizar" onclick="minimizar()" type="button">−</button>
+        </div>
+        <div class="text"><br></div>
+        <div class="integrations">
+            <img class="kaliumlogo" src="necessary/kaliumlogo.png">
+        </div>
+        </div>
+    </section>
+    <script src="switchtoggle.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

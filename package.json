@@ -1,0 +1,33 @@
+{
+  "name": "Kalium",
+  "productName": "Kalium",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "package-win": "electron-packager . Kalium --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Kalium\""
+  },
+  "author": "StrykeTom",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.3.13",
+    "electron-connect": "^0.6.3",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.9",
+    "adm-zip": "^0.5.10",
+    "child_process": "^1.0.2",
+    "electron-fetch": "^1.9.1",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-updater": "^5.3.0",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^7.0.3",
+    "node-fetch": "^3.3.2",
+    "paypal-rest-sdk": "^1.8.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.7.3"
+  }
+}
