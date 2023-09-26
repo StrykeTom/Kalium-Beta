@@ -6,3 +6,4 @@ The Kalium-Beta is an application for osint but this repository is only **FRONT-
 - [ ] compiled
 - [x] beta
 
+![Screenshot](Kalium-BetaPoC.png)
